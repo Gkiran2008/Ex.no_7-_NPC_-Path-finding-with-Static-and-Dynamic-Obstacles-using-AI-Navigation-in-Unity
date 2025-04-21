@@ -1,3 +1,4 @@
+## Ex.no_7 _NPC_ Path finding with Static and Dynamic Obstacles using AI Navigation in Unity
 ### DATE:  21-04-2025                                                                        
 ### REGISTER NUMBER : 212223040095
 ### AIM: 
@@ -27,7 +28,7 @@ Go to: Inspector → Add Component → NavMeshObstacle and Check: ✅ "Carve"
 11. Run the program
   
 ### Program:
-
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -77,6 +78,7 @@ void Start()
 For smooth movement(optional)  -> use  
 float movement = Mathf.PingPong(Time.time * moveSpeed, moveDistance) - moveDistance / 2;
 transform.position = startPos + new Vector3(movement, 0, 0);
+```
 ### Output:
 
 Before:
